@@ -1,0 +1,7 @@
+ORIGIN IS (350,400);
+SCALE IS (10,10);
+ROT IS PI;
+FOR T FROM 0 TO 2*PI STEP PI/10000 DRAW (16*sin(T)*sin(T)*sin(T),13*cos(T)-5*cos(2*T)-2*cos(3*T)-cos(4*T));
+ORIGIN IS (200,200);
+SCALE IS (100,100);
+FOR T FROM 0 TO 2*PI STEP PI/10000 DRAW (cos(T)*cos(T)*cos(T),sin(T)*sin(T)*sin(T));
